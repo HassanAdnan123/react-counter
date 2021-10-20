@@ -1,0 +1,47 @@
+.Add{
+  height: 40px;
+  font-family: 'DM Mono';
+  background-color: lightyellow;
+  width: 60px;
+  font-size: 16px;
+  color: darkcyan;
+  border: 3px solid darkcyan !important;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px lightgrey;
+  margin: 5px;
+}
+
+.Add:hover{
+  background-color: lightcyan;
+}
+
+.Add:active {
+  box-shadow: none;
+  -webkit-transform:scale(.95); /* Safari and Chrome */
+    -moz-transform:scale(.95); /* Firefox */
+    -ms-transform:scale(.95); /* IE 9 */
+    -o-transform:scale(.95); /* Opera */
+     transform:scale(.95);
+}
+
+.count {
+  color: darkorchid;
+  font-size: 100px;
+}
+
+.buttonsGrid {
+  margin: 0 auto; 
+  text-align: left;
+}
+
+
+.Reset{
+  height: 60px;
+  width: 100px;
+  font-family: 'DM Mono';
+  background-color: red;
+  font-size: 16px;
+  color: white;
+  border: none;
+  box-shadow: 0px 1px 10px lightgrey;
+}
